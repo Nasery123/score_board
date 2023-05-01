@@ -3,6 +3,18 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
 }
+.reset{
+    width: 130px;
+    height: 50px;
+}
+.class{
+    position: relative;
+}
+.reset{
+    position: absolute;
+    right: 75px;
+    left: 25px;
+}
 .home1{
     border-radius: 10px;
     width: 110px;
@@ -29,4 +41,20 @@ body{
     width: 110px;
     height: 40px;
     background-color: aquamarine;
+}
+#hscore{
+    font-size: 35px;
+    color:cyan;
+}
+#ascore{
+    font-size: 35px;
+    color:cyan;
+}
+.home{
+    font-size: 60px;
+    color:cyan;
+}
+.away{
+    font-size: 50px;
+    color:cyan;
 }

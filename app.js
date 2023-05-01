@@ -28,3 +28,9 @@ function drawScores(){
     homeElement.textContent = homescore;
     awayElement.textContent = awayscore;
 }
+function reset(){
+    homescore = 0;
+    awayscore = 0;
+    homeElement.textContent = homescore;
+    awayElement.textContent = awayscore;
+}
